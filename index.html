@@ -13,8 +13,7 @@
      แล้วเปลี่ยนเป็น <a class="file" href="ลิงก์จริง">ชื่อ</a>
      ไฟล์ที่อัปโหลดไว้ใน repo เดียวกันใช้ชื่อไฟล์ได้เลย เช่น href="cv.pdf"
   2) Tools ที่ยังขาด: เปลี่ยน <li class="pending" data-note="...">Tools</li> เป็น <li>Python</li> <li>OpenCV</li> ฯลฯ
-  3) GPAX: เปลี่ยนทั้งแถวเป็น <div><dt>GPAX</dt><dd>3.xx</dd></div>
-  4) พร้อมเปิดจริงเมื่อไหร่ ลบคำว่า draft ออกจาก <div class="page draft">
+  4) พร้อมเปิดจริงเมื่อไหร่ ลบคำว่า draft ออกจาก <div class="page">
      ช่องเส้นประที่ยังไม่ได้ใส่จะถูกซ่อนเองทั้งหมด
   5) ขึ้นเว็บ: สร้าง public repo ชื่อ panidasrs.github.io แล้วอัปโหลด index.html (+ cv.pdf และไฟล์อื่น)
      เว็บจะอยู่ที่ https://panidasrs.github.io
@@ -525,7 +524,7 @@ a.file:hover { border-color: var(--accent); }
 <style>img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
-<div class="page draft">
+<div class="page">
 
   <p class="draft-banner" role="note"><strong>Draft for review.</strong> Dashed items are placeholders for links, files and details you still need to add or get approved. They hide automatically once you remove <code>draft</code> from <code>&lt;div class="page draft"&gt;</code> at the top of the page.</p>
 
@@ -550,7 +549,6 @@ a.file:hover { border-color: var(--accent); }
       <dl>
         <div><dt>Seeking</dt><dd>Summer 2027 internship in AI/ML or data science</dd></div>
         <div><dt>Studying</dt><dd>B.Sc. in Digital Science and Technology, Faculty of ICT, Mahidol University · 2024 – 2028 (expected)</dd></div>
-        <div class="pending-row"><dt>GPAX</dt><dd><span class="pending" data-note="add yours">x.xx</span></dd></div>
         <div><dt>Based in</dt><dd>Bangkok, Thailand</dd></div>
         <div><dt>Languages</dt><dd>Thai (native) · English (working proficiency)</dd></div>
       </dl>
